@@ -36,7 +36,7 @@ class Rectangle:
     def is_equal(self, r2):
         return self.__a == r2.__a and self.__b == r2.__b
 
-    def get_rectangle(self):
+    def __str__(self):
         return "The resulting rectangle: \nA: {} \t B: {}".format(self.__a, self.__b)
 
 
